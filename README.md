@@ -32,3 +32,6 @@ Work in Progress
 Work in Progress
 ### Użytkownik(Student)
 Work in Progress
+
+
+Link do emblematów użytych w zakładce technologie:https://github.com/inttter/md-badges?tab=readme-ov-file#
