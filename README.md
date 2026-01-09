@@ -3,7 +3,7 @@
 
 
 ## Opis
-Work in Progress
+Gra w stylu milionerów powstała w celu zaliczenia projektu z przedmiotu Komunikacja Człowiek-Komputer.
 ## Technologie
 **Frontend:**	
 - [![HTML](https://img.shields.io/badge/HTML-%23E34F26.svg?logo=html5&logoColor=white)](#)
@@ -22,16 +22,47 @@ Aplikacja wymaga do działania zainstalowania następujących komponentów:
 - [React](https://react.dev/)
 - [Node.js](https://nodejs.org/en)
 - Przeglądarka obsługująca JavaScript 2015 (ES6)
-- Git(w celu pobrania repozytorium)
+- [Git](https://git-scm.com/)(w celu sklonowania repozytorium)
+### Klonowanie repozytorium
+` git clone https://github.com/ArturTkaczuk/KCK-Milionerzy `
 ### Uruchamianie serwera
-Work in Progress
+Za pomocą konsoli należy przejść do katalogu backend znajdującego w pobranym repozytorium 
+i wykonać następujące polecenia:
+
+`npm install express` (tylko przy pierwszym uruchomieniu w celu instalacji framework'a express.js)
+
+`node server.js`
+
 ### Uruchomienie klienta
-Work in Progress
+Po przejściu do katalogu frontend wpisujemy następujące komendy:
+
+`npm install` (w celu instalacji zależności)(wymagane dla wersji produkcyjnej i deweloperskiej)
+
+**Wersja deweloperska aplikacji**
+
+`npm start` (uruchomienie wersji deweloperskiej)
+
+
+**Kompilacja wersji produkcyjnej**
+
+Dla wersji produkcyjnej jest wymagane doinstalowanie serve:
+
+`npm install -g serve`
+
+W celu kompilacji wpisujemy następującą komendę:
+
+`npm run build`
+
+Skompilowaną już aplikację uruchamiamy za pomocą następującej komendy:
+
+`serve -s build`
+
 ## Przykładowe użycie
 ### Admin(Wykładowca)
 Work in Progress
 ### Użytkownik(Student)
 Work in Progress
 
+##Linki
 
-Link do emblematów użytych w zakładce technologie:https://github.com/inttter/md-badges?tab=readme-ov-file#
+[Emblematy z zakładki technologie](https://github.com/inttter/md-badges?tab=readme-ov-file#)(licencja MIT)
